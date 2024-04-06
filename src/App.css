@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.grid {
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 1px solid #ccc;
+}
+
+.snake {
+  background-color: #4caf50;
+}
+
+.food {
+  background-color: #f44336;
+}
+
+.game-over {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f44336;
+}
